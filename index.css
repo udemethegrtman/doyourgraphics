@@ -1,0 +1,282 @@
+.navbar-dark {
+    background-color: #F0AF5D !important;
+}
+
+.header {
+    background-color: #F0AF5D;
+    color: #fff;
+}
+
+#masterHead {
+    font-size: 1.875em;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.para {
+    font-size: 1.5em;
+}
+
+.graph {
+    font-size: 1.125em;
+}
+
+.divCover {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(10, 10, 10, 0.79);
+}
+
+.centered {
+    margin: auto;
+    width: 70%;
+    /*    border: 3px solid #73AD21;*/
+    padding: 2em 0px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+
+.centered::after {
+    z-index: 10;
+}
+
+input {
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0.39em;
+    outline: none;
+    border: 1px solid #b7b5b5c9;
+}
+
+/*
+input#msg {
+    height: 100px;
+}
+*/
+
+@media screen and (max-width: 600px) {
+    .cols-25,
+    .cols-75,
+    input[type=submit] {
+        width: 50%;
+        margin-top: 0;
+    }
+    .centered {
+        width: 300px;
+    }
+}
+
+.features {
+    font-size: 0.9em;
+}
+
+#explain {
+    padding-top: 20px;
+}
+
+.section {
+    padding: 7em 0px;
+    min-height: 100%;
+}
+
+
+.but {
+    border-radius: 3px;
+    border: 1px solid #75757530;
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #332f29;
+    box-shadow: 2px 1px 8px 1px rgba(212, 212, 212, 0.61);
+
+}
+
+a.but:hover {
+    text-decoration: none
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.black:hover {
+    color: #fff;
+}
+
+.white:hover {
+    color: #fff;
+}
+
+#saveTime {
+    background-color: #eae4e0;
+}
+
+#app {
+    position: relative;
+    top: -7em;
+}
+
+.card {
+    height: 135px;
+    padding: 10px;
+    /*    padding: 10px 10px;*/
+}
+
+.head-ings {
+    margin-bottom: 4em;
+}
+
+.services {
+    background: #F0AF5D;
+    color: #fff;
+}
+
+.service-content {
+    height: 90px;
+    margin-bottom: 3em;
+}
+
+.price {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+a.getStartedButton {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+#others {
+    margin-top: -20px;
+}
+
+
+.myImg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.modalPlate {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 80px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+
+    max-width: 700px;
+}
+
+.close-me {
+    font-size: 30px;
+    padding-bottom: 0.3em;
+}
+
+.close {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+
+.modal-content {
+    -webkit-animation-name: ;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.bodyTesty {
+    width: 500px;
+    margin: auto;
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .bodyTesty {
+        width: auto;
+        margin: auto;
+    }
+
+    #topBanner {
+        margin-top: 2em;
+    }
+    a.nav-link {
+        text-align: center;
+    }
+    #get_started {
+        text-align: center;
+        width:
+    }
+}
